@@ -1,5 +1,6 @@
 """验证数据能回答核心问数场景：近 7 天销量 TOP5（排除退款、排除下架商品）。"""
 from sqlalchemy import text
+
 from app.db.base import SessionLocal
 
 SQL = """
