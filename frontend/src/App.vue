@@ -30,7 +30,7 @@ const loading = ref(false)
 const chartData = ref<any>(null)
 
 // 注意：手机测试时，这里填电脑的局域网 IP（如 http://192.168.1.5:8000/api/chat）
-const API_URL = 'http://192.168.111.139:8000/api/chat'
+const API_URL = 'https://shop-lens-api.fly.dev/api/chat'
 
 const sendMessage = async () => {
   if (!inputText.value) return
